@@ -7,20 +7,20 @@
                 color: rgb(113, 238, 255);
                 margin-bottom: 20px;
             }
+            input{
+                margin: 0px 0px 10px 0px;
+            }
         </style>
     </head>
     <body style="background-color:rgb(224, 255, 255)">
         <h2>STUDENT REGISTRATION</h2>
-        <form>
+        <form onsubmit="window.alert('If u are Raghwendra or Kushagra u are a DICK otherwise sorry plz give 5 stars :)')">
             <label>Name:</label>
            <input type="text" name="name" placeholder="Enter your name" />
-            <br><br>
             <label>Date of Birth:</label>
-            <input type="date" name="D.O.B" />
-            <br><br>
+            <input type="date" name="D.O.B"/>
             <label>Phone Number:</label>
             <input type="number" placeholder="Enter your phone number" name="phno" maxlength="10" />
-            <br><br>
             <label>Branch preffered:</label>
             <select>
                 <option value="CSE">Computer Science and Engineering</option>
@@ -28,24 +28,18 @@
                 <optiom value="M">Mechanical</optiom>
                 <option value="ME">Metallurgy</option>
             </select>
-            <br><br>
             <label>Gender:</label>
             <input type="radio" value="M" name="gender" />Male
             <input type="radio" value="F" name="gender" />Female
             <input type="radio" value="O" name="gender" />Others
-            <br><br>
             <label>Upload your recent photo<br></label>    
             <input type="file" name="pic" />
-            <br><br>
             <textarea cols="40" rows="6">Adress:</textarea>
-            <br><br>
             <label>Password</label><br>
             <input type="password" placeholder="Create a strong password" />
-            <br><br>
             <label>Confirm Password</label><br>
             <input type="password" placeholder="ReEnter your password" />
-            <br><br>
-            <button onclick="window.alert('If u are Raghwendra or Kushagra then u are a DICK')"
+            <input type="submit" value="SUBMIT"/>
             <input type="reset" value="CLEAR ALL"/>
         </form>
     </body>
